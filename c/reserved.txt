@@ -1,0 +1,62 @@
+int long char float double short signed unsigned void
+const struct typedef union switch case default do for
+while break continue goto if else static auto extern
+volatile sizeof register return enum int 
+
+分类函数,所在函数库为ctype.h 
+isalpha isalnum isascii iscntrl isdigit isgraph islower ispr 
+ispunct isspace isupper isxdigit tolower toupper 
+
+数学函数,所在函数库为math.h、stdlib.h、string.h、float.h 
+abs cabs fabs labs exp frexp ldexp log log10 pow pow10 sqrt 
+acos asin atan atan2 cos sin tan cosh sinh tanh hypot ceil 
+floor srand rand poly modf fmod frexp atof atoi atol ecvt 
+fcvt gcvt ultoa ltoa itoa strtod strtol matherr _matherr 
+_clear87 _fpreset _status87 
+
+
+目录函数,所在函数库为dir.h、dos.h 
+chdir findfirst findnext fumerge fnsplit getcurdir getcwd getdisk 
+setdisk mkdir rmdir mktemp searchpath 
+
+进程函数,所在函数库为stdlib.h、process.h 
+abort execl execle execlp execlpe execv execve execvp execvpe _exit 
+exit spawnl spawnle spawnlp spawnlpe spawnv spawnve spawnvp spawnvpe system 
+
+转换子程序,函数库为math.h、stdlib.h、ctype.h、float.h 
+ecvt fcvt gcvt ultoa ltoa itoa atof atoi atol strtod 
+toascii tolower _tolower toupper _toupper 
+
+诊断函数,所在函数库为assert.h、math.h 
+assert perror strerror 
+
+输入输出子程序,函数库为io.h、conio.h、stat.h、dos.h、stdio.h、signal.h 
+kbhit fget getch putch get put getche ungetch cgets scanf vscanf cscanf 
+sscanf vsscanf puts cputs prf vprf cprf vcprf sprf vsprf rename ioctl 
+_open open creat _creat creatnew creattemp read _read write _write dup 
+dup2 eof length setmode getftime setftime lseek tell isatty lock unlock 
+close _close fopen fdopen freopen getc putc getw putw ungetc fgetc fputc 
+fgets fputs fread fwrite fscanf vfscanf fprf vfprf fseek ftell rewind 
+feof no ferror clearerr setbuf setvbuf fclose fcloseall fflush fflushall 
+access chmod printf gets 
+
+接口子程序,所在函数库为:dos.h、bios.h 
+sleep FP_OFF FP_SEG MK_FP getpsp parsfnm absread abswrite getdfree getdta 
+setdta getfat getfatd bdos bdosptr intdos intdosx intr keep ctrlbrk disable 
+enable generrupt errupt setvect harderr hardresume hardretn inport inportb 
+outport outportb peek peekb poke pokeb randbwr segread getverify setverify 
+getcbrk setcbrk dosexterr bioscom biosdisk biodquip bioskey biosmemory 
+biospr biostime country 
+
+操作函数,所在函数库为string.h、mem.h 
+memccpy memchr memcmp memicmp memmove memcpy memset stpcpy strcat strchr 
+strcmp strcpy strcspn strdup stricmp strlen strlwr strncat strncmp strncpy 
+strnicmp strnset strpbrk strrchr strrev strset strspn strstr strtok strupr 
+
+存贮分配子程序,所在函数库为dos.h、alloc.h、malloc.h、stdlib.h、process.h 
+allocmem freemem setblock brk sbrk coreleft calloc malloc free 
+realloc farcoreleft farcalloc farmalloc farfree farrealloc 
+
+时间日期函数,函数库为time.h、dos.h 
+tm date time ctime asctime difftime gmtime localtime tzset dostounix 
+unixtodos getdate setdate gettime settime time stime
